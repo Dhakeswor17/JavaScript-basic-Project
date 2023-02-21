@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    color: blue;
+}
+
+.div1 {
+    background-color: cornsilk;
+    height: 300px;
+    width: 600px;
+    text-align: center;
+}
+
+.fah {
+    display: inline-block;
+    background-color: rgb(207, 203, 203);
+    margin: 30px 10px 10px 10px;
+    padding: 50px 50px;
+}
+
+.cal {
+    display: inline-block;
+    background-color: rgb(207, 203, 203);
+    padding: 50px 50px;
+}
+
+#fah-con,
+#cal-con {
+    background-color: blue;
+    color: whitesmoke;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#num1,
+#num2 {
+    height: 25px;
+}
+
+#clear {
+    background-color: black;
+    color: whitesmoke;
+    border: solid grey;
+    margin: 3px 100px 100px 100px;
+    height: 29px;
+    width: 55px;
+    font-weight: bold;
+    cursor: pointer;
+}
