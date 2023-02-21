@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background change</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 class="text"> Background change</h1>
+    <div id="color-switcher">
+        <span class="btn" id="red" onclick="changeBG('#FF0000')"></span>
+        <span class="btn" id="aqua" onclick="changeBG('#00FFFF')"></span>
+        <span class="btn" id="black" onclick="changeBG('#000000')"></span>
+        <span class="btn" id="yellow" onclick="changeBG('#FFFF00')"></span>
+    </div>
+    <div id="header">
+        <img src="./bc.jpg">
+        <p class="text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque facilis ad fugiat qui culpa nostrum distinctio nisi nobis accusamus corrupti quia saepe eius omnis amet numquam voluptatibus iste esse suscipit maiores, cumque quidem commodi a tenetur.
+            Illo iste veritatis nemo aperiam porro. Enim, reiciendis quibusdam iste dolorem porro ducimus aperiam est natus adipisci, cupiditate assumenda ex nostrum, amet fugit impedit maiores possimus dolores! Alias corrupti quae deserunt sint at nobis
+            temporibus, vero ut expedita voluptas illo excepturi veritatis id fugiat sunt suscipit obcaecati ipsum sed quasi molestiae dicta. Repellendus deleniti a doloribus facere sequi reiciendis earum suscipit rerum ab, veritatis possimus! Ducimus
+            consequatur, sint similique numquam dolorem debitis pariatur ex? Aperiam temporibus dicta, necessitatibus voluptatem, esse illum nemo quia itaque optio repudiandae sequi officiis. Adipisci, maxime illo ut nesciunt qui ratione tempora omnis
+            vel ea esse maiores consequatur! Et modi perspiciatis minus quasi porro aperiam. Fugit saepe rem quo beatae laborum mollitia odit quia unde velit nesciunt alias nemo eaque, ratione voluptatibus eligendi non doloribus necessitatibus commodi
+            et quis corrupti sint dolore aspernatur. Rerum officiis amet voluptatibus adipisci quis quo. Nemo perferendis repudiandae, quibusdam dolor labore officia possimus, ad dolores voluptate rem enim dolore debitis optio nam, cupiditate quas? Fugiat.</p>
+
+    </div>
+
+
+
+    <script>
+        function changeBG(color) {
+            document.body.style.backgroundColor = color;
+
+            let txt = document.getElementsByClassName("text");
+            if (color == "#000000") {
+                for (let eml of txt) {
+                    eml.style.color = ("white");
+                }
+            } else {
+                for (let eml of txt) {
+                    eml.style.color = ("#000000");
+                }
+
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>
