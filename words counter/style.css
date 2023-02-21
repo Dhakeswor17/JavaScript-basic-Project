@@ -1,0 +1,22 @@
+body {
+    padding: 50px 100px;
+}
+
+h1 {
+    text-align: center;
+    background-color: aqua;
+    padding: 10px;
+}
+
+#tarea {
+    width: 100%;
+    border-color: blue;
+    font-size: 17px;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(19, 10, 10);
+    color: whitesmoke;
+    font-size: 29px;
+}
